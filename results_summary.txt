@@ -1,0 +1,14 @@
+Bovine Mastitis WGCNA (PRJNA390595 n=16)
+
+METHODS: 
+- HISAT2 alignment (94% mapping ARS-UCD1.2) 
+- samtools idxstats → 2,212 variance-filtered contigs
+- WGCNA signed hybrid network (power=12, R²=0.92)
+
+RESULTS:
+- 6 modules identified (3-1,783 contigs; Table 1)
+- MEturquoise (1,783 contigs): r=-0.87 SCM correlation 
+- Holm P=6.2×10⁻⁵ across 6 modules (Table 2)
+- Sample dendrogram: clear 9 healthy:7 SCM separation
+
+HARDWARE: i5-7500, LMDE7 Cinnamon (18hr runtime, 4 cores)
